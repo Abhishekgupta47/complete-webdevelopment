@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            background-image: url(nature.jpg);
+        }
+        .container {
+            background-color: bisque;
+            border: 3px solid rgb(86 4 4);
+            /** we can set margin/padding for top,bottom,left and right like this */
+            /**  padding-top: 78px;
+            padding-bottom: 56px;
+            padding-left: 50px;
+            padding-right: 50px;**/
+            
+            /* padding=top,right,bottom,left*/
+            /*padding: 23px 56px 6px 78px ;*/
+            /*padding: y(top/bottom) x(left/right);*/
+            padding: 14px 19px;
+            margin: 14px 19px;
+            border-radius: 20px;
+            width:233px ;
+            
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h3>This is my heading</h3>
+        <p id="first">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem, odio exercitationem. In, optio
+            voluptatibus ipsum blanditiis magnam iusto, consequatur nemo minima ullam consectetur eligendi tenetur autem
+            dolor. Quis, sint voluptatem!</p>
+    </div>
+
+    <div class="container">
+        <h3>This is my heading</h3>
+        <p id="second">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem, odio exercitationem. In, optio
+            voluptatibus ipsum blanditiis magnam iusto, consequatur nemo minima ullam consectetur eligendi tenetur autem
+            dolor. Quis, sint voluptatem!</p>
+    </div>
+
+    <div class="container">
+        <h3>This is my heading</h3>
+        <p id="third">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem, odio exercitationem. In, optio
+            voluptatibus ipsum blanditiis magnam iusto, consequatur nemo minima ullam consectetur eligendi tenetur autem
+            dolor. Quis, sint voluptatem!</p>
+    </div>
+
+</body>
+
+</html>
