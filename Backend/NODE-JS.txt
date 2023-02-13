@@ -1,0 +1,27 @@
+WHAT IS NODE.JS?
+
+
+Node.js is a javascript runtime built on chrome's V8 javascript engine.
+
+Node.js is designed to build scalable network application.
+
+Node.js can be downloadedfrom the official Node.js web sitr: https://nodejs.org
+
+Node.js is free and open source server environment.
+
+Node.js allows us to run javascript on the server.
+
+Node.js can run on multiple OS.
+
+
+
+WHY USE NODE.JS ?
+
+
+You can use javascript in the entire stack.
+
+Many famous companies use node.js as their backend
+ 
+Nodejs comes with a lot of useful built in modules
+
+Node.js is fast
